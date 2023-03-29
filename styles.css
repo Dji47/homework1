@@ -8,6 +8,11 @@
     font-family: "Montserrat";
 
 }
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+
+}
 .top {
     height: 1024px;
     background-image: url(/image/bacground.jpg);
@@ -31,6 +36,7 @@
     color: #FFFFFF;
     padding-top: 217px;
     padding-bottom: 32px;
+    width: 788.78px;
 }
 .top_text {
     width: 481px;
