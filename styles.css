@@ -29,6 +29,8 @@
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    padding-top: 217px;
+    padding-bottom: 32px;
 }
 .top_text {
     width: 481px;
@@ -43,6 +45,7 @@
     display: flex;
     align-items: center;
     color: #FFFFFF;
+    padding-bottom: 44px;
 }
 .top_button {
     width: 234.06px;
