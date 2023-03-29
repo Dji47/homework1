@@ -19,7 +19,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+
 
 }
 .top_content {
@@ -71,3 +71,25 @@
     border-radius: 30px;
     color: #FFFFFF;
 }
+.game {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+.game_item1 {
+    height: 300px;
+    grid-column: span 4;
+    background-image: url(/image/game1.jpg);
+}
+.game_item2 {
+    height: 300px;
+    grid-column: span 4;
+    background-image: url(/image/game2.jpg);
+}
+.game_item3 {
+    height: 300px;
+    grid-column: span 4;
+    background-image: url(/image/game3.jpg);
+}
+
