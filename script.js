@@ -2,7 +2,7 @@
 
 let a = 10;
 alert(a);
-a = 30;
+a = 20;
 alert(a)
 
 let b = 2007;
