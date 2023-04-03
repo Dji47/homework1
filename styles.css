@@ -75,21 +75,33 @@
     display: grid;
     gap: 32px;
     grid-template-columns: repeat(12, 1fr);
+    padding-top: 128px;
 
 }
+.game_box {
+    width: 1440px;
+    height: 556px;
+    left: 0px;
+    top: 1024px;
+
+    background: #000915;
+    }
 .game_item1 {
     height: 300px;
     grid-column: span 4;
     background-image: url(/image/game1.jpg);
+    background-repeat: no-repeat;
 }
 .game_item2 {
     height: 300px;
     grid-column: span 4;
     background-image: url(/image/game2.jpg);
+    background-repeat: no-repeat;
 }
 .game_item3 {
     height: 300px;
     grid-column: span 4;
     background-image: url(/image/game3.jpg);
+    background-repeat: no-repeat;
 }
 
