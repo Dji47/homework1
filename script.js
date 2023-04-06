@@ -21,3 +21,7 @@ alert(c%d);
 let result = (2 ** 5);
 alert(result);
 
+let w = 9;
+let z = 2;
+alert(w%z);
+
