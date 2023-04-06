@@ -34,3 +34,7 @@ num = num + 1;
 num = num - 1;
 alert(num);
 
+let age = Number(prompt("Сколько вам лет?"));
+alert(age);
+
+
