@@ -17,3 +17,7 @@ alert(c+d);
 alert(c-d);
 alert(c*d);
 alert(c%d);
+
+let result = (2 ** 5);
+alert(result);
+
