@@ -11,4 +11,9 @@ alert('2007');
 let name = "Brandan Eich";
 alert(name);
 
-//add files
+let c=10;
+let d=2;
+alert(c+d);
+alert(c-d);
+alert(c*d);
+alert(c%d);
