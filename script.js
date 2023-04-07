@@ -42,5 +42,15 @@ const user = {
 	age: 33,
 	isAdmin: true
 };
+user['city of residence'] = 'Saint-Petersburg';
+user.age = 18;
+delete user['city of residence'];
+let info = prompt('Какую информацию хотите узнать о пользователе?', 'Укажите name, age или isAdmin');
+    alert (user[info]);
+    console.log(user[info]);
+
+
+
+
 
 
