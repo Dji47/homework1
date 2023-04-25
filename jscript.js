@@ -19,3 +19,9 @@ c >= 0 && c < 10 ? console.log('Верно') : console.log('Неверно');
 
 c = 2;
 c >= 0 && c < 10 ? console.log('Верно') : console.log('Неверно');
+
+
+let d, e;
+d = 15, e = 108;
+
+d > 100 || e > 100 ? console.log('Верно') : console.log('Неверно');
