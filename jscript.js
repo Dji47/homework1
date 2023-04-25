@@ -25,3 +25,13 @@ let d, e;
 d = 15, e = 108;
 
 d > 100 || e > 100 ? console.log('Верно') : console.log('Неверно');
+
+
+
+let a = '2';
+let b = '3';
+
+a = parseInt('2', 10);
+b = parseInt('3', 10);
+
+alert(a + b);
