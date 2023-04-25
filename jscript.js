@@ -36,4 +36,17 @@ b = parseInt('3', 10);
 
 alert(a + b);
 
-let monthNumber = Number(prompt("Введите номер месяца и узнайте к какому сезону относится данный месяц"))
+let monthNumber = Number(prompt("Введите номер месяца и узнайте к какому сезону относится данный месяц"));
+if (monthNumber === 12 || monthNumber <= 2 && monthNumber > 0) {
+    alert('Это зимний месяц');
+} else if (monthNumber >= 3 && monthNumber <= 5) {
+    alert('Это весенний месяц');
+} else if (monthNumber >= 6 && monthNumber <= 8) {
+    alert('Это летний месяц');
+} else if (monthNumber >= 9 && monthNumber <= 11) {
+    alert('Это осенний месяц');
+} else if (monthNumber === 0) {
+    alert('Такого месяца нет');
+} else {
+    alert("Введите число от 1 до 12")
+}
