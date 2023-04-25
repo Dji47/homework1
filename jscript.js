@@ -35,3 +35,5 @@ a = parseInt('2', 10);
 b = parseInt('3', 10);
 
 alert(a + b);
+
+let monthNumber = Number(prompt("Введите номер месяца и узнайте к какому сезону относится данный месяц"))
